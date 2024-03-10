@@ -4,7 +4,7 @@ import { FilterIds } from '../helpers/JsUtils';
 import Selector from './Selector';
 
 
-const Filter = ({setResults, setIsFiltered, results}) => {
+const Filter = ({setResults, setIsFiltered}) => {
   
   const [input, setInput] = useState('');
   const [selection, setSelection] = useState(null);
